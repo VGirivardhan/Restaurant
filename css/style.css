@@ -1,0 +1,99 @@
+body {
+    color: #777777;
+}
+
+.logo {
+    font-weight: 700;
+    color: #222222;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 600;
+    color: #222222;
+}
+
+a {
+    color: #222222;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f58d17;
+}
+
+img {
+    width: 100%;
+}
+
+.btn {
+    border-radius: 0;
+    padding: 14px 38px;
+}
+
+.btn-brand {
+    color: #ffffff;
+    font-weight: 500;
+    border-color: #F58d17;
+    background-color: #F58d17;
+}
+
+.btn-brand:hover {
+    border-color: #d37810;
+    background-color: #d37810;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link.active {
+    color: #F58d17;
+}
+
+.intro-text {
+    text-align: center;
+}
+
+#reservation .form-control {
+    border-radius: 0;
+}
+
+#reservation .form-control:focus {
+    box-shadow: none;
+    border-color: #F58d17;
+}
+
+#reservation input.form-control {
+    height: 47px;
+}
+
+footer {
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/cover4.jpg);
+    padding-top: 120px;
+    padding-bottom: 30px;
+}
+
+.footer-top {
+    margin-bottom: 30px;
+}
+
+footer p,
+footer a {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.login {
+    height: fit-content;
+    width: fit-content;
+    padding: 1%;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: white;
+}
