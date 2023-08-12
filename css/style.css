@@ -97,3 +97,11 @@ footer a {
     border-radius: 10px;
     background-color: white;
 }
+
+.outer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f9fa;
+}

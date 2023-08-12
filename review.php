@@ -19,7 +19,7 @@ if (fwrite($file,$data))
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
             <link rel="stylesheet" href="css/style.css">
         </head>
-        <body class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: #f8f9fa;">
+        <body class="outer">
             <div class="border rounded p-5 bg-white shadow-sm" style="max-width: 400px;">
                 <h2 class="intro-text text-center">Thanks for Your Review 😊</h2>
                 <p class="text-center">Thanks for your review! We truly value your feedback and appreciate your time. We look forward to welcoming you back soon for another wonderful experience. Visit again and enjoy the exceptional offerings at our establishment!</p>

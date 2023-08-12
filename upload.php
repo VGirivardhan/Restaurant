@@ -37,7 +37,7 @@ if($uploadto)
             <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
             <link rel="stylesheet" href="css/style.css">
         </head>
-        <body class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: #f8f9fa;">
+        <body class="outer">
             <div class="border rounded p-5 bg-white shadow-sm" style="max-width: 400px;">
                 <h2 class="intro-text text-center">Your image was uploaded successfully</h2>
                 <p class="text-center">Thanks for uploading 😊.</p>

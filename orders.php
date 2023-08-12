@@ -50,10 +50,11 @@ if ($result2)
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
             <link rel="stylesheet" href="css/style.css">
         </head>
-        <body class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: #f8f9fa;">
+        <body class="outer">
             <div class="border rounded p-5 bg-white shadow-sm" style="max-width: 400px;">
                 <h2 class="intro-text text-center">Order Placed Successfully</h2>
-                <p>Your order has been successfully placed! Here are the ordered items:</p>
+                <p>Your order has been successfully placed!</p>
+                <h4>Here are the ordered items:</h4>
                 <ol class="align-items-center">
                     <?php
                         foreach ($items as $item)

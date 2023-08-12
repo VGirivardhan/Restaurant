@@ -20,6 +20,9 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
     $time = $_POST["time"];
     $message = $_POST["msg"];
 
+    // $query1="CREATE TABLE reservations(ID INT AUTO_INCREMENT PRIMARY KEY,Name VARCHAR(255),Mobile VARCHAR(15),Date DATE,Time TIME,Message TEXT);";
+    // $result1=mysqli_query($conn,$query1);
+
     $query2 = "INSERT INTO reservations (Name,Mobile, Date, Time, Message)
     VALUES ('$name', '$mobile', '$date', '$time', '$message')";
     $result2 = mysqli_query($conn, $query2);
@@ -34,7 +37,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST")
             <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
             <link rel="stylesheet" href="css/style.css">
         </head>
-        <body class="d-flex justify-content-center align-items-center" style="min-height: 100vh; background-color: #f8f9fa;">
+        <body class="outer">
             <div class="border rounded p-5 bg-white shadow-sm" style="max-width: 400px;">
                 <h2 class="intro-text text-center">Booking Confirmed 😊</h2>
                 <p class="text-center">Thank you for booking with Kings Luxury Restaurant. Your reservation has been confirmed.</p>

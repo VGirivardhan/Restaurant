@@ -47,7 +47,7 @@ $pw=$_SESSION["password"];
 
 <body data-bs-spy="scroll" data-bs-target=".navbar">
     
-    <nav class="navbar navbar-expand-lg py-1 sticky-top bg-white">
+    <nav class="navbar navbar-expand-lg py-1 sticky-top bg-white shadow">
         <div class="container-fluid">
             <a class="navbar-brand" href="#home">
                 <h2 class="logo">Kings Luxury Restaurant</h2>
@@ -123,7 +123,7 @@ $pw=$_SESSION["password"];
         </button>
     </div>
 
-    <!-- About -->
+    
     <div id="about" class="container mb-5">
             <div class="row gy-4 align-items-center">
                 <div class="col-lg-6">
@@ -144,7 +144,7 @@ $pw=$_SESSION["password"];
             </div>
     </div>
 
-    <!-- Menu -->
+    
     <form action="orders.php" method="post">
     <div id="menu" class="bg-light px-2 text-dark">
         <div class="container">
@@ -257,7 +257,7 @@ $pw=$_SESSION["password"];
     </div>>
     </form>
 
-    <!-- Reservation -->
+    
     <div id="reservation">
         <div class="container">
             <div class="row">
@@ -319,7 +319,7 @@ $pw=$_SESSION["password"];
         </div>
     </div>
     
-    <!-- footer -->
+    
     <footer>
         <div class="footer-top">
             <div class="container">
