@@ -14,7 +14,7 @@
             const errorusername = document.getElementById("errorusername");
             const errorpw = document.getElementById("errorpw");
 
-            const pattern1 = /^[A-Za-z\s]+$/;
+            const pattern1 = /^[A-Za-z\s\d]+$/;
             
             let check1=pattern1.test(username.value);
             if (check1!= true)
