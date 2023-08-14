@@ -328,7 +328,7 @@ $pw=$_SESSION["password"];
                         <h6 class="text-white mb-4">CONTACT</h6>
                         <p class="mb-1">Phone:   8074799764</p>
                         <p class="mb-1">Email:   vgirivardhan139@gmail.com</p>
-                        <p class="mb-1">Address: Banglore</p>
+                        <p class="mb-1">Address: Bangalore</p>
                     </div>
                     <div class="col-lg-6">
                         <h6 class="text-white mb-4">OPENING HOURS</h6>
