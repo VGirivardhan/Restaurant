@@ -149,37 +149,55 @@ $pw=$_SESSION["password"];
     <div id="menu" class="bg-light px-2 text-dark">
         <div class="container">
             <div class="row">
-                <div class="col-12 mb-4 intro-text">
+                <div class="col-12  intro-text">
                     <h1>Explore Our Menu & Select Items</h1>
                 </div>
             </div>
         </div>
 
-        
+        <div class="container">
+            <div class="row">
+                <div class="col-12 my-4 intro-text">
+                    <h2 style="color:#F58d17">Veg Items</h2>
+                </div>
+            </div>
+        </div>
+
         <div class="container">
             <div class=" row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 gy-4">
                 <div class="bg-white">
                     <img src="images/item_1.jpg" alt="">
                     <div class="p-4 form-check">
-                        <input type="checkbox" class="form-check-input" id="item_1" name="items[]" value="Noodles">
+                        <input type="checkbox" class="form-check-input" id="item_1" name="items[]" value="Veg Noodles">
                         <label for="item_1" class="form-check-label">
-                            <h5 class="mb-2"><a href="#">Noodles</a></h5>
+                            <h5 class="mb-2"><a href="#">Veg Noodles</a></h5>
                         </label>
                         <p class="small">₹ 99</p>
                     </div>
                 </div>
-                            
+
                 <div class="bg-white">
-                    <img src="images/item_2.jpg" alt="">
+                    <img src="images/item_12.jpg" alt="">
                     <div class="p-4 form-check">
-                        <input type="checkbox" class="form-check-input" id="item_2" name="items[]" value="Burger">
-                        <label for="item_2" class="form-check-label">
-                            <h5 class="mb-2"><a href="#">Burger</a></h5>
+                        <input type="checkbox" class="form-check-input" id="item_12" name="items[]" value="French Fries">
+                        <label for="item_12" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">French Fries</a></h5>
                         </label>
-                        <p class="small">₹ 199</p>
+                        <p class="small">₹ 149</p>
                     </div>
                 </div>
-                            
+
+                <div class="bg-white">
+                    <img src="images/item_11.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_11" name="items[]" value="Potato Chips">
+                        <label for="item_11" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Potato Chips</a></h5>
+                        </label>
+                        <p class="small">₹ 149</p>
+                    </div>
+                </div>
+
                 <div class="bg-white">
                     <img src="images/item_3.jpg" alt="">
                     <div class="p-4 form-check">
@@ -192,22 +210,11 @@ $pw=$_SESSION["password"];
                 </div>
 
                 <div class="bg-white">
-                    <img src="images/item_4.jpg" alt="">
+                    <img src="images/item_9.jpg" alt="">
                     <div class="p-4 form-check">
-                        <input type="checkbox" class="form-check-input" id="item_4" name="items[]" value="Grilled Chicken">
-                        <label for="item_4" class="form-check-label">
-                            <h5 class="mb-2"><a href="#">Grilled Chicken</a></h5>
-                        </label>
-                        <p class="small">₹ 299</p>
-                    </div>
-                </div>
-
-                <div class="bg-white">
-                    <img src="images/item_5.jpg" alt="">
-                    <div class="p-4 form-check">
-                        <input type="checkbox" class="form-check-input" id="item_5" name="items[]" value="Pizza">
-                        <label for="item_5" class="form-check-label">
-                            <h5 class="mb-2"><a href="#">Pizza</a></h5>
+                        <input type="checkbox" class="form-check-input" id="item_9" name="items[]" value="Veg Salad">
+                        <label for="item_9" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Veg Salad</a></h5>
                         </label>
                         <p class="small">₹ 299</p>
                     </div>
@@ -223,6 +230,92 @@ $pw=$_SESSION["password"];
                         <p class="small">₹ 299</p>
                     </div>
                 </div>
+                            
+                <div class="bg-white">
+                    <img src="images/item_14.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_14" name="items[]" value="Veg Burger">
+                        <label for="item_14" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Veg Burger</a></h5>
+                        </label>
+                        <p class="small">₹ 299</p>
+                    </div>
+                </div>
+
+                <div class="bg-white">
+                    <img src="images/item_19.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_19" name="items[]" value="Paneer Butter Masala">
+                        <label for="item_19" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Paneer Butter Masala</a></h5>
+                        </label>
+                        <p class="small">₹ 299</p>
+                    </div>
+                </div>
+            </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 my-4 intro-text">
+                            <h2 style="color:#F58d17">Non-Veg Items</h2>
+                        </div>
+                    </div>
+                </div>
+
+            <div class=" row row-cols-lg-4 row-cols-md-2 row-cols-sm-1 gy-4">
+                <div class="bg-white">
+                    <img src="images/item_4.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_4" name="items[]" value="Grilled Chicken">
+                        <label for="item_4" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Grilled Chicken</a></h5>
+                        </label>
+                        <p class="small">₹ 299</p>
+                    </div>
+                </div>
+
+                <div class="bg-white">
+                    <img src="images/item_5.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_5" name="items[]" value="Chicken Pizza">
+                        <label for="item_5" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Chicken Pizza</a></h5>
+                        </label>
+                        <p class="small">₹ 299</p>
+                    </div>
+                </div>
+
+                <div class="bg-white">
+                    <img src="images/item_16.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_16" name="items[]" value="Chicken Rolls">
+                        <label for="item_16" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Chicken Rolls</a></h5>
+                        </label>
+                        <p class="small">₹ 299</p>
+                    </div>
+                </div>
+                
+                <div class="bg-white">
+                    <img src="images/item_2.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_2" name="items[]" value="Chicken Burger">
+                        <label for="item_2" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Chicken Burger</a></h5>
+                        </label>
+                        <p class="small">₹ 349</p>
+                    </div>
+                </div>
+
+                <div class="bg-white">
+                    <img src="images/item_17.webp" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_17" name="items[]" value="Chicken Nuggets">
+                        <label for="item_17" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Chicken Nuggets</a></h5>
+                        </label>
+                        <p class="small">₹ 399</p>
+                    </div>
+                </div>
 
                 <div class="bg-white">
                     <img src="images/item_7.jpg" alt="">
@@ -231,7 +324,18 @@ $pw=$_SESSION["password"];
                         <label for="item_7" class="form-check-label">
                             <h5 class="mb-2"><a href="#">Kings Luxury Special Biryani</a></h5>
                         </label>
-                        <p class="small">₹ 399</p>
+                        <p class="small">₹ 499</p>
+                    </div>
+                </div>
+
+                <div class="bg-white">
+                    <img src="images/item_15.jpg" alt="">
+                    <div class="p-4 form-check">
+                        <input type="checkbox" class="form-check-input" id="item_15" name="items[]" value="Kings Fried Chicken">
+                        <label for="item_15" class="form-check-label">
+                            <h5 class="mb-2"><a href="#">Kings Fried Chicken</a></h5>
+                        </label>
+                        <p class="small">₹ 499</p>
                     </div>
                 </div>
 
@@ -246,6 +350,8 @@ $pw=$_SESSION["password"];
                     </div>
                 </div>
             </div>
+
+        </div>
             <div class="row bg-white">
                 <div class="text-center col-12">
                     
@@ -277,10 +383,10 @@ $pw=$_SESSION["password"];
                             <span id="errormobile" class="text-danger fw-bold fst-italic"></span>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <input type="date" class="form-control" placeholder="Date" id="date" name="date" required>
+                            <input type="date" class="form-control" placeholder="Date" id="date" name="date" min="<?php echo date('Y-m-d'); ?>" required>
                         </div>
                         <div class="col-md-6 col-sm-12">
-                            <input type="time" class="form-control" placeholder="Time" id="time" name="time" required>
+                            <input type="time" class="form-control" placeholder="Time" id="time" name="time" min="<?php echo date('H:i'); ?>" required>
                         </div>
                         <div class="col-md-12">
                             <textarea name="msg" id="msg" cols="30" rows="4" class="form-control" placeholder="Message"></textarea>
@@ -327,7 +433,7 @@ $pw=$_SESSION["password"];
                     <div class="col-lg-6">
                         <h6 class="text-white mb-4">CONTACT</h6>
                         <p class="mb-1">Phone:   8074799764</p>
-                        <p class="mb-1">Email:   vgirivardhan139@gmail.com</p>
+                        <p class="mb-1">Email:   r190139@rguktrkv.ac.in</p>
                         <p class="mb-1">Address: Bangalore</p>
                     </div>
                     <div class="col-lg-6">
