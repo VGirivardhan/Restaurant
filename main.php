@@ -127,7 +127,7 @@ $pw=$_SESSION["password"];
     <div id="about" class="container mb-5">
             <div class="row gy-4 align-items-center">
                 <div class="col-lg-6">
-                    <img src="images/about.jpg" alt="About">
+                    <img src="images/about1.jpg" alt="About">
                 </div>
                 <div class="col-lg-5 ms-auto">
                     <h1>About us</h1>
