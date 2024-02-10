@@ -56,3 +56,21 @@ Maintains clean and organized code structure, making it easy to understand and m
 
 ## 19. Footer Section
 Adds a footer section with contact information, opening hours, and copyright notice, providing users with additional relevant information and enhancing the website's professional appearance.
+
+# Website Interface
+![Sign UP Page](README_IMAGES/1.png "Sign Up Page")
+![Home Page](README_IMAGES/2.png "Home Page")
+![About](README_IMAGES/3.png "About")
+![Restaurant Menu Veg Items](README_IMAGES/4.png "Restaurant Menu Veg Items")
+![Restaurant Menu Non-Veg Items](README_IMAGES/5.png "Restaurant Menu Non-Veg Items")
+![Order Successful Message ](README_IMAGES/6.png "Order Successful Message ")
+![Table Reservation Form](README_IMAGES/7.png "Table Reservation Form")
+![Reservation Successful Message](README_IMAGES/8.png "Reservation Successful Message")
+![Image Upload Photo Form](README_IMAGES/9.png "Image Upload Photo Form")
+![Upload Successful Message ](README_IMAGES/10.png "Upload Successful Message ")
+![Review Form](README_IMAGES/11.png "Review Form")
+![Thanks Message for Review ](README_IMAGES/12.png "Thanks Message for Review ")
+![Footer Section](README_IMAGES/13.png "Footer Section")
+## Credits
+### Copyrights © 2023 Girivardhan, All rights reserved.
+### Designed By : Girivardhan.
